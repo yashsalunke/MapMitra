@@ -287,6 +287,7 @@ class MapsActivity : FragmentActivity() , OnMapReadyCallback , TaskLoadedCallbac
 
     }
 
+
     private fun onBottomNavigationClicked(item : MenuItem) : Boolean {
 
         if (previousMenuItem != null) {
@@ -585,8 +586,9 @@ class MapsActivity : FragmentActivity() , OnMapReadyCallback , TaskLoadedCallbac
 
 
 
+    override fun tp(){
+            val a = a+b
+          
+    }
 
 }
-
-
-
