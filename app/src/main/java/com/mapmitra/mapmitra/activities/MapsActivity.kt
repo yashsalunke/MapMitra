@@ -584,11 +584,4 @@ class MapsActivity : FragmentActivity() , OnMapReadyCallback , TaskLoadedCallbac
         currentPolyline = mMap !!.addPolyline(values[0] as PolylineOptions?)
     }
 
-
-
-    override fun tp(){
-            val a = a+b
-          
-    }
-
 }
