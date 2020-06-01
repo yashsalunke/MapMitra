@@ -1,0 +1,23 @@
+
+r
+Bapp/src/main/java/com/mapmitra/mapmitra/utils/ConnectionManager.kt,e\0\e0c4b674c6eca6ed8ca27d53ee320831b7878c05
+y
+Iapp/src/androidTest/java/com/mapmitra/mapmitra/ExampleInstrumentedTest.kt,c\9\c9ccbfd28a561632aceb5dd128a4e994130ead20
+n
+>app/src/main/java/com/mapmitra/mapmitra/login/LoginActivity.kt,0\e\0ec7c4f88142c81022063c6a9305d61ade0267b5
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+s
+Capp/src/main/java/com/mapmitra/mapmitra/activities/StartActivity.kt,5\5\55eac903264fc1a6fb7769804ab6914b78e415e3
+u
+Eapp/src/main/java/com/mapmitra/mapmitra/activities/ProfileActivity.kt,f\e\fe02093398c8a58943b0cf6b9471803c16a197e8
+r
+Bapp/src/main/java/com/mapmitra/mapmitra/activities/MapsActivity.kt,3\6\36f1d813d12b9b8d8ae5ce20a0e2faac8bd22d0c
+p
+@app/src/main/java/com/mapmitra/mapmitra/aboutUs/PrivacyPolicy.kt,3\f\3fdd8d266a783b3908a1acd3e779a9dd1dabe3f3
+q
+Aapp/src/main/java/com/mapmitra/mapmitra/aboutUs/TermsCondition.kt,4\5\45bc194e8952b264974c573ab4dd84de9ae3668e
+j
+:app/src/main/java/com/mapmitra/mapmitra/aboutUs/AboutUs.kt,5\0\50bf37dd642dd70df1b01358b1d14dccf6486304
+o
+?app/src/main/java/com/mapmitra/mapmitra/adapters/DevsAdapter.kt,9\7\97e729df5b8b5e7213a57982c3132c70e178215a

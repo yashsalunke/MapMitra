@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "99885273517",
+    "firebase_url": "https://mapm-new.firebaseio.com",
+    "project_id": "mapm-new",
+    "storage_bucket": "mapm-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99885273517:android:c787b8e140ed9e297fd124",
+        "android_client_info": {
+          "package_name": "com.mapmitra.mapm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc7q_z1lwkqX_NpNknOd0N7NkdVNYFZNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99885273517:android:3536384f72ea0a4e7fd124",
+        "android_client_info": {
+          "package_name": "com.mapmitra.mapmitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc7q_z1lwkqX_NpNknOd0N7NkdVNYFZNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

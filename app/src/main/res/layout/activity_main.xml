@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    tools:context=".activities.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLauncherIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/permission_request"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/imgLauncherIcon"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_needs_permission_to_access_your_device_location_so_please_allow_the_permission"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btn_grant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/grant_permission"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

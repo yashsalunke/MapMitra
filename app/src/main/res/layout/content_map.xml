@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MapsActivity"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+   >
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="149dp"
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+        android:background="@color/colorPrimary"
+        app:title="@string/app_name"
+        android:layout_alignParentTop="true"
+        app:titleTextColor="@color/quantum_white_100"
+        />
+
+
+    <SearchView
+        android:id="@+id/sv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_round"
+        android:backgroundTint="#A4C7F8"
+        android:backgroundTintMode="src_over"
+        android:elevation="5dp"
+        android:goIcon="@drawable/bg_round"
+        android:iconifiedByDefault="false"
+        android:inputType="text"
+        android:queryHint="@string/search_place"
+        android:searchIcon="@android:drawable/ic_search_category_default"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2841460454128299/7554655538"
+        android:layout_marginBottom="50dp"/>
+
+
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btm_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:touchscreenBlocksFocus="true"
+        android:visibility="visible"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/btm_nav_menu"
+        />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_directions"
+        android:focusable="true"
+        android:layout_above="@id/btm_nav"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        />
+
+
+
+</RelativeLayout>

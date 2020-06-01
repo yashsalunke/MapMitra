@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "99885273517",
+    "firebase_url": "https://mapm-new.firebaseio.com",
+    "project_id": "mapm-new",
+    "storage_bucket": "mapm-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99885273517:android:c787b8e140ed9e297fd124",
+        "android_client_info": {
+          "package_name": "com.mapmitra.mapm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc7q_z1lwkqX_NpNknOd0N7NkdVNYFZNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99885273517:android:3536384f72ea0a4e7fd124",
+        "android_client_info": {
+          "package_name": "com.mapmitra.mapmitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99885273517-e5l53egvlt3ldj011dj3eavc8a6dunkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapmitra.mapmitra",
+            "certificate_hash": "1e3b2a0c39e8e2fd184a10914c29ce3d3b5db642"
+          }
+        },
+        {
+          "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc7q_z1lwkqX_NpNknOd0N7NkdVNYFZNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99885273517-rcgkconhdi2gghftb8q17df8i0m1g708.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2841460454128299~8433974004"
+    }
+  ],
+  "configuration_version": "1"
+}

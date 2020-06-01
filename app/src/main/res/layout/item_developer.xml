@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#68DDF4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/dev_Image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+        <TextView
+            android:id="@+id/dev_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dev_Image"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_action_profile"
+            android:text="@string/yash"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/dev_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dev_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:text="@string/yash"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:id="@+id/dev_linkedIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dev_mail"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/linked_in_logo"
+            android:text="@string/yash"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/dev_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dev_linkedIn"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@android:drawable/ic_menu_call"
+            android:text="@string/yash"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+

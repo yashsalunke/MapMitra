@@ -1,0 +1,2 @@
+rootProject.name='MapMitra'
+include ':app'
