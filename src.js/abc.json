@@ -1,0 +1,56 @@
+{
+  "apiVersion": "1.0.0",
+  "swaggerVersion": "1.2",
+  "basePath": "localhost:3000",
+  "resourcePath": "/api",
+  "produces": [
+    "application/json"
+  ],
+  "authorizations": {},
+  "apis": [
+    {
+      "path": "/user/{userID}",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "Returns details about a particular user",
+          "nickname": "getUserById",
+          "authorizations": {},
+          "parameters": [
+            {
+              "name": "userId",
+              "description": "ID of the user",
+              "required": true,
+              "type": "integer",
+              "paramType": "path"
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 400,
+              "message": "Invalid ID supplied"
+            },
+            {
+              "code": 404,
+              "message": "Order not found"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "models": {
+    "User": {
+      "id": "User",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
